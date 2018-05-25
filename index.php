@@ -49,7 +49,8 @@ return;
 
 //ドコモの雑談APIから雑談データを取得
 //From "https://qiita.com/Yuta_Fujiwara/items/281d3e36845b37872a16"
-function string chat($text, $userID, $displayName) {
+function chat($text, $userID, $displayName): string
+{
     // docomo chatAPI
     $api_key = getenv('docomoAPIKey');
     $api_url = sprintf('https://api.apigw.smt.docomo.ne.jp/dialogue/v1/dialogue?APIKEY=%s', $api_key);

@@ -29,4 +29,7 @@ git push heroku master
 
 # get Webhook url
 heroku open
-```
+`
+現在は，docomo APIの使用が変わったため動きません。
+
+``
